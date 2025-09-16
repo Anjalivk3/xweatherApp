@@ -47,7 +47,7 @@ const Weather = () => {
       </form>
 
       <div>
-        {isLoading&& <p>Loading data…</p>}
+        {isLoading && <p> Loading data… </p>}
         {!isLoading && cityWeather && (
           <div className='weather-cards'>
             <WeatherCard title="Temperature"
