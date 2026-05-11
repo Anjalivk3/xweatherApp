@@ -14,7 +14,7 @@ const Weather = () => {
     try {
         const res = await axios.get(url, {
           params:{
-            Key: "47e561fa17bf45dfb2293256251609",
+            key: "47e561fa17bf45dfb2293256251609",
             q: city,
           },
         });
